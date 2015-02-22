@@ -1,6 +1,6 @@
 ##   Data Dictionary
 
-Data Source
+###Data Source
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -58,7 +58,7 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 
-## These variables were downselected to only those measurments on the mean or standard deviation, which were than averaged for each Subject and Activity.
+### These variables were downselected to only those measurments on the mean or standard deviation, which were than averaged for each Subject and Activity.
 
 The structure of this data file TidyDataOut.txt is as follows:
 
